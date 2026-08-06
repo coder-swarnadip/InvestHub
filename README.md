@@ -202,7 +202,7 @@ Authorization: Bearer <JWT_TOKEN>
 **Endpoint**
 
 ```http
-POST /api/investments/create
+POST /api/investments
 ```
 
 **Authentication**
