@@ -14,7 +14,7 @@ const authRoute = require("./routes/authRoute");
 const dashboardRoute = require("./routes/dashboardRoute");
 const investmentRoute = require("./routes/investmentRoute");
 const referralRoute = require("./routes/referralRoute");
-const roiHistoryRoute= require("./routes/roiHistoryRoute");
+const roiHistoryRoute= require("./routes/roiHistoryroute");
 const rfInRoute = require("./routes/rfInRoute");
 
 
