@@ -426,7 +426,7 @@ Authorization: Bearer <JWT_TOKEN>
 | POST | `/api/auth/register` | Register a new user | ❌ No |
 | POST | `/api/auth/login` | Login user | ❌ No |
 | GET | `/api/auth/profile` | Get logged-in user profile | ✅ Yes |
-| POST | `/api/investments/create` | Create investment | ✅ Yes |
+| POST | `/api/investments` | Create investment | ✅ Yes |
 | GET | `/api/investments` | Get investment history | ✅ Yes |
 | GET | `/api/dashboard` | Dashboard summary | ✅ Yes |
 | GET | `/api/referrals/direct` | Get direct referrals | ✅ Yes |
