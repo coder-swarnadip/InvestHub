@@ -7,6 +7,9 @@ import Dashboard from "./pages/Dashboard";
  import Investments from "./pages/Investments";
 import Referral from "./pages/Referal";
 import Profile from "./pages/Profile";
+import NotFound from "./pages/NotFound";
+
+
 
 function App() {
     return (
@@ -14,7 +17,7 @@ function App() {
             {/* Public Routes */}
             <Route path="/" element={<Login />} />
             <Route path="/register" element={<Register />} />
-
+<Route path="*" element={<NotFound />} />
             {/* Routes with Layout */}
             <Route element={<Layout />}>
                 <Route path="/dashboard" element={<Dashboard />} />
